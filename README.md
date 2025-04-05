@@ -1,8 +1,8 @@
 # To-Do List
 
-# Project Todo List
+### Project Todo List
 
-## Setup
+#### Setup
 
 - [x] Create "ToDo List" folder
 - [x] Installed Webpack and required loaders:
