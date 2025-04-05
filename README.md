@@ -26,5 +26,5 @@
 - [x] Import Bootstrap to JS
   - import "bootstrap/dist/css/bootstrap.min.css";
   - import "bootstrap";
-- [x] Add Popper Boostrap
+- [x] Add Popper Bootstrap
   - npm install @popperjs/core
