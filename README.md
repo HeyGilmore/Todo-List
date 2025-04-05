@@ -1,8 +1,46 @@
 # To-Do List
 
-### Project Todo List
+## 🛠️ Tech Stack
 
-#### Setup
+- JavaScript (ES6+)
+- HTML5
+- CSS3 (with Bootstrap 5)
+- Webpack
+  - `webpack`, `webpack-cli`, `webpack-dev-server`
+  - `html-webpack-plugin`
+  - `style-loader`, `css-loader`
+  - `bootstrap`, `@popperjs/core`
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/heyGilmore/todo-list.git
+   cd todo-list
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the app locally:**
+   ```bash
+   npx webpack serve
+   ```
+
+# Open http://localhost:8080/
+
+4. **Build for production:**
+   ```bash
+   npx run build
+   ```
+
+---
+
+## Project Todo List
+
+### Setup
 
 - [x] Create "ToDo List" folder
 - [x] Installed Webpack and required loaders:
