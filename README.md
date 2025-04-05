@@ -57,7 +57,7 @@
 - [x] Initialize with Github
 - [x] Set up basic HTML boilerplate
 - [x] Run Webpack build successfully
-    - npx webpack
+  - npx webpack
   - npx webpack serve
   - http://localhost:8080/
 - [x] Add Bootstrap
@@ -68,6 +68,17 @@
 - [x] Add Popper Bootstrap
   - npm install @popperjs/core
 
-### HTML
+### HTML & CSS
 
-- [ ] Create a Navigation Bar
+- [x] Create a Navigation Bar
+- [x] Create a Footer
+- [x] Create a div for content
+
+### Javascript
+
+- [ ] Add Form in div#content with inputs
+  - Task Name
+  - Date to be completed
+  - Subject
+  - Priority
+  - Category
