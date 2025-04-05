@@ -25,11 +25,11 @@
    npm install
    ```
 3. **Run the app locally:**
+
    ```bash
    npx webpack serve
+   # Open http://localhost:8080/
    ```
-
-# Open http://localhost:8080/
 
 4. **Build for production:**
    ```bash
