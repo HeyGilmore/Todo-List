@@ -57,6 +57,7 @@
 - [x] Initialize with Github
 - [x] Set up basic HTML boilerplate
 - [x] Run Webpack build successfully
+    - npx webpack
   - npx webpack serve
   - http://localhost:8080/
 - [x] Add Bootstrap
@@ -66,3 +67,7 @@
   - import "bootstrap";
 - [x] Add Popper Bootstrap
   - npm install @popperjs/core
+
+### HTML
+
+- [ ] Create a Navigation Bar
