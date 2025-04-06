@@ -76,9 +76,12 @@
 
 ### Javascript
 
-- [ ] Add Form in div#content with inputs
+- [x] Add Form in div#content with inputs
   - Task Name
   - Date to be completed
   - Subject
   - Priority
   - Category
+- [x] Create a JSON data with pre-made data
+  - Pre-made tasks so when the pages loads
+- [ ] Show case pre-made data
