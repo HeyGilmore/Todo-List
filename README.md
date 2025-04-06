@@ -84,4 +84,5 @@
   - Category
 - [x] Create a JSON data with pre-made data
   - Pre-made tasks so when the pages loads
-- [ ] Show case pre-made data
+- [x] Show case pre-made data
+- [ ] When form submit add to data

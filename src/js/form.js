@@ -1,7 +1,7 @@
 function formCreation() {
   return `
         <div class="container row pt-5 mx-auto">
-            <form class="row bg-light w-75 mx-auto rounded py-3 shadow shadow-5">
+            <form class=" mainForm row bg-light w-75 mx-auto rounded py-3">
                 <!--- Title --->
                 <div class="col-12">
                     <label for="title" class="form-label">Title:</label>
