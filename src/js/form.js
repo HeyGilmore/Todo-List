@@ -1,7 +1,7 @@
 function formCreation() {
   return `
         <div class="container row pt-5 mx-auto">
-            <form class=" mainForm row bg-light w-75 mx-auto rounded py-3">
+            <form id="todoForm" class="mainForm row bg-light w-75 mx-auto rounded py-3">
                 <!--- Title --->
                 <div class="col-12 py-3">
                     <label for="title" class="form-label">Title:</label>
@@ -14,8 +14,8 @@ function formCreation() {
                 </div>
                 <!-- Priority --->
                 <div class="col-4">
-                    <label for="subject" class="form-label">Priority:</label>
-                    <select class="form-select" aria-label="Default select">
+                    <label for="priority" class="form-label">Priority:</label>
+                    <select class="form-select" id="priority" aria-label="Default select">
                         <option selected></option>
                         <option value="high">Highest</option>
                         <option value="medium">Medium</option>
