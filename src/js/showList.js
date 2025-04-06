@@ -1,3 +1,6 @@
+import editImage from "../img/pencil.png";
+import deleteImage from "../img/delete.png";
+
 function creationList(task) {
   return `
         <div class="card  mainCards">
@@ -11,7 +14,13 @@ function creationList(task) {
             }</span>
             <br/>
             <h6 class="pt-3">Notes:</h6>
-            <p class="card-text pb-3">${task.notes}</p>
+            <p class="card-text pb-5">${task.notes}</p>
+            <span class="position-absolute bottom-0 start-0 ms-2 mb-2 btn btn-outline-info" id="editBTN">
+              <img src="${editImage}" alt="edit button" width="15" height="20" style="" class=""> 
+             </span>
+             <span class="position-absolute bottom-0 start-10 ms-5 mb-2 btn btn-outline-danger" id="deleteBTN">
+              <img src="${deleteImage}" alt="delete button" width="15" height="20" style="" class=""> 
+             </span>
             <button class="position-absolute bottom-0 my-2 mx-2 end-0 badge bg-${
               task.completed ? "success" : "secondary"
             }">
