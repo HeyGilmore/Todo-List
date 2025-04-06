@@ -6,3 +6,13 @@ body {
   background-color: rebeccapurple;
   font-family: Montserrat;
 }
+
+#content-list {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(290px, 1fr)
+  ); /* Adjusts to available width */
+  gap: 0.5em;
+  padding: 5em 2em;
+}
