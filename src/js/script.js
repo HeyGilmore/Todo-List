@@ -12,6 +12,8 @@ import creationList from "./showList";
 import handleFormSubmission from "./formSubmission";
 // Import Deletion Function
 import deletionButtonPushed from "./deletionButton";
+//Import Edit Function
+import editButtonPushed from "./editButtonPushed";
 
 // div#content for form
 const content = document.getElementById("content");
@@ -27,3 +29,6 @@ handleFormSubmission();
 
 // Delete task when delete btn is used
 deletionButtonPushed();
+
+// edit Button
+editButtonPushed();

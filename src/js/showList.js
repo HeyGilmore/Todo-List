@@ -15,7 +15,9 @@ function creationList(task) {
             <br/>
             <h6 class="pt-3">Notes:</h6>
             <p class="card-text pb-5">${task.notes}</p>
-            <span class="position-absolute bottom-0 start-0 ms-2 mb-2 btn btn-outline-info" id="editBTN">
+            <span class="position-absolute bottom-0 start-0 ms-2 mb-2 btn btn-outline-info edit-btn" id="editBTN" data-id="${
+              task.id
+            }">
               <img src="${editImage}" alt="edit button" width="15" height="20" style="" class=""> 
              </span>
              <span class="position-absolute bottom-0 start-10 ms-5 mb-2 btn btn-outline-danger delete-btn" id="deleteBTN" data-id="${
