@@ -3,8 +3,10 @@ import deleteImage from "../img/delete.png";
 
 function creationList(task) {
   return `
-        <div class="card  mainCards">
-            <div class="card-body">
+        <div class="card mainCards ${
+          task.completed ? "bg-secondary" : "bg-light"
+        }">
+                    <div class="card-body">
             <h5 class="card-title text-capitalize w-75">${task.title}</h5>
             <span class="card-subtitle mb-2 text-muted text-capitalize">${
               task.subject
@@ -27,7 +29,7 @@ function creationList(task) {
              </span>
             <button class="position-absolute bottom-0 my-2 mx-2 end-0 badge bg-${
               task.completed ? "success" : "secondary"
-            }">
+            } toggle-btn" data-id="${task.id}">
             ${task.completed ? "Completed" : "Pending"}
           </button>
         </div>

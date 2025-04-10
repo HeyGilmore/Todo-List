@@ -16,6 +16,8 @@ import deletionButtonPushed from "./deletionButton";
 import editButtonPushed from "./editButtonPushed";
 // Import validation for Bootstrap
 import setupValidation from "./validation-bootstrap.js";
+// Import if completed or Not
+import completedOrNotCompletedBTN from "./completedOrNotCompletedBTN.js";
 
 // div#content for form
 const content = document.getElementById("content");
@@ -34,3 +36,6 @@ handleFormSubmission();
 deletionButtonPushed();
 // edit Button
 editButtonPushed();
+
+// Completed or not completed button
+completedOrNotCompletedBTN();
