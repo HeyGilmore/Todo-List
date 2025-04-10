@@ -32,6 +32,10 @@ function formCreation() {
                     <label for="anyNotes" class="form-label">Notes:</label>
                     <textarea class="form-control" style="resize: none;" id="anyNotes" rows="3"></textarea>
                 </div>
+                 <!---- Cancel Button : Edit --->
+                <div class="d-grid gap-2 mb-3 d-none" id="cancel-btn-container">
+                    <button class="btn btn-secondary" id="btn-cancel" type="cancel">Cancel</button>
+                </div>
                 <!---- Button --->
                 <div class="d-grid gap-2">
                     <button class="btn btn-primary" type="submit">Submit</button>
