@@ -9,6 +9,13 @@ export default function handleFormSubmission() {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
+    // Check if the form is valid
+    if (!this.checkValidity()) {
+      e.stopPropagation();
+      this.classList.add("was-validated");
+      return; // Stop further execution if the form is invalid
+    }
+
     const titleValue = document.getElementById("title").value.trim();
     const subjectValue = document.getElementById("subject").value.trim();
     const priorityValue = document.getElementById("priority").value;
@@ -62,5 +69,6 @@ export default function handleFormSubmission() {
 
     // Reset the form
     form.reset();
+    this.classList.remove("was-validated");
   });
 }

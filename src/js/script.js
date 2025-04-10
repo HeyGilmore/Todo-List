@@ -14,10 +14,14 @@ import handleFormSubmission from "./formSubmission";
 import deletionButtonPushed from "./deletionButton";
 //Import Edit Function
 import editButtonPushed from "./editButtonPushed";
+// Import validation for Bootstrap
+import setupValidation from "./validation-bootstrap.js";
 
 // div#content for form
 const content = document.getElementById("content");
 content.innerHTML = formCreation();
+// Validation the form
+setupValidation();
 
 // Grab list div
 const contentList = document.getElementById("content-list");
@@ -26,9 +30,7 @@ contentList.innerHTML = data.reverse().map(creationList).join("");
 
 // Call the function that attaches the form handler
 handleFormSubmission();
-
 // Delete task when delete btn is used
 deletionButtonPushed();
-
 // edit Button
 editButtonPushed();
