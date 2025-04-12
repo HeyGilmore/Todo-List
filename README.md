@@ -1,5 +1,7 @@
 # To-Do List
 
+![To-Do List](./src/img/Screenshot.png)
+
 ## 🛠️ Tech Stack
 
 - JavaScript (ES6+)
@@ -85,4 +87,24 @@
 - [x] Create a JSON data with pre-made data
   - Pre-made tasks so when the pages loads
 - [x] Show case pre-made data
-- [ ] When form submit add to data
+- [x] Enable form submissions to add tasks to the task list.
+- [x] Created a Delete unction
+  - Remove tasks from the UI and the data array
+- [x] Edit button clicked, prefill form to edit
+- [x] Created toggle button for completed or pending
+  - Card background changes due to status
+- [x] Added Sorting functionality
+  - Order by date button is clicked.
+
+
+## 📚 Learnings
+
+Through this project, I improved my understanding of:
+
+   -  Using Webpack setup and optimization for modern JavaScript projects.
+
+   -  Using modular coding practices in JavaScript.
+
+   -  Using Bootstrap 5 to create responsive designs.
+
+   - Pre-fill the form with data saved from the JSON data. 
