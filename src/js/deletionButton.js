@@ -4,10 +4,10 @@ export default function deletionButtonPushed() {
   const contentList = document.getElementById("content-list");
 
   contentList.addEventListener("click", function (e) {
-    if (e.target.classList.contains("delete-btn")) {
-      const taskId = parseInt(e.target.getAttribute("data-id"));
-
-      // REMOVE FROM DOM
+    const deleteButton = e.target.closest(".delete-btn"); // Find the nearest parent with 'delete-btn'
+    if (deleteButton) {
+      const taskId = parseInt(deleteButton.getAttribute("data-id"), 10);
+      // Remove from DOM
       e.target.closest(".mainCards").remove();
 
       // Remove from data array

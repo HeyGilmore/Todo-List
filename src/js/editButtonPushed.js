@@ -48,6 +48,7 @@ function cancelBtnPushed() {
     .addEventListener("click", (e) => {
       e.preventDefault;
       document.getElementById("cancel-btn-container").classList.add("d-none");
+      todoForm.reset();
     });
 }
 

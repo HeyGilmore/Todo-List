@@ -7,6 +7,9 @@ export default function completedOrNotCompletedBTN() {
 
   // Listening for a click with toggle-btn
   contentList.addEventListener("click", (e) => {
+    const isToggleButton = e.target.classList.contains("toggle-btn");
+    if (!isToggleButton) return;
+
     //-- if button has a toggle btn
     const taskID = parseInt(e.target.getAttribute("data-id"), 10);
     const task = data.find((task) => task.id === taskID);

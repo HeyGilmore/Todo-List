@@ -65,12 +65,11 @@ export default function handleFormSubmission() {
       data.push(newTask);
       // Add new task to the top of the list
       contentList.innerHTML = creationList(newTask) + contentList.innerHTML;
-      
     }
 
-    document.getElementById("cancel-btn-container").classList.add("d-none");
     // Reset the form
     form.reset();
     this.classList.remove("was-validated");
+    document.getElementById("cancel-btn-container").classList.add("d-none");
   });
 }
